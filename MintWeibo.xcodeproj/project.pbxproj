@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05418A61493913D263C51C4E /* Pods_MintWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AE12489D3D6E691A5492EF /* Pods_MintWeibo.framework */; };
+		6E3A1354288ADDAF00B0002A /* HScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A1353288ADDAF00B0002A /* HScrollViewController.swift */; };
+		6E3A1356288D3CA900B0002A /* CommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A1355288D3CA900B0002A /* CommentInputView.swift */; };
+		6E3A1358288D3F9D00B0002A /* CommentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A1357288D3F9D00B0002A /* CommentTextView.swift */; };
+		6E3A135A288D5D2000B0002A /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3A1359288D5D2000B0002A /* KeyboardResponder.swift */; };
+		6E81F6B328882B5C009B3326 /* PostListData_recommend_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E81F66028882B5C009B3326 /* PostListData_recommend_1.json */; };
+		6E81F6D628882B5C009B3326 /* PostListData_hot_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E81F68328882B5C009B3326 /* PostListData_hot_1.json */; };
+		6E81F6F42888335A009B3326 /* PostCellToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E81F6F32888335A009B3326 /* PostCellToolbarButton.swift */; };
+		6E81F6F828883973009B3326 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E81F6F728883973009B3326 /* PostListView.swift */; };
+		6E81F6FA28884B14009B3326 /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E81F6F928884B14009B3326 /* PostImageCell.swift */; };
+		6E913CD42887035A002B68FD /* PostVIPBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E913CD32887035A002B68FD /* PostVIPBadge.swift */; };
+		6EAA731228896E0B00885E79 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA731128896E0B00885E79 /* PostDetailView.swift */; };
+		6EAA73142889769A00885E79 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA73132889769A00885E79 /* HomeNavigationBar.swift */; };
+		6EAA7316288983EE00885E79 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA7315288983EE00885E79 /* HomeView.swift */; };
+		6EAA731828898CCA00885E79 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAA731728898CCA00885E79 /* UserData.swift */; };
 		6EC84AD22886FB63001E349B /* MintWeiboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC84AD12886FB63001E349B /* MintWeiboApp.swift */; };
 		6EC84AD42886FB63001E349B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC84AD32886FB63001E349B /* ContentView.swift */; };
 		6EC84AD62886FB66001E349B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC84AD52886FB66001E349B /* Assets.xcassets */; };
 		6EC84AD92886FB66001E349B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC84AD82886FB66001E349B /* Preview Assets.xcassets */; };
+		6EC84AE22886FDD5001E349B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC84AE12886FDD5001E349B /* PostCell.swift */; };
+		6ED65F0E289820EB00251321 /* OriginalButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED65F0D289820EB00251321 /* OriginalButtonStyle.swift */; };
+		6ED65F122898252A00251321 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED65F102898252A00251321 /* NetworkManager.swift */; };
+		6ED65F132898252A00251321 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED65F112898252A00251321 /* NetworkAPI.swift */; };
+		6EF20788288817B3000CD69C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF20787288817B2000CD69C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68D0EEC59878199DB0A9CEF4 /* Pods-MintWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintWeibo.debug.xcconfig"; path = "Target Support Files/Pods-MintWeibo/Pods-MintWeibo.debug.xcconfig"; sourceTree = "<group>"; };
+		6E3A1353288ADDAF00B0002A /* HScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScrollViewController.swift; sourceTree = "<group>"; };
+		6E3A1355288D3CA900B0002A /* CommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentInputView.swift; sourceTree = "<group>"; };
+		6E3A1357288D3F9D00B0002A /* CommentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTextView.swift; sourceTree = "<group>"; };
+		6E3A1359288D5D2000B0002A /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
+		6E81F66028882B5C009B3326 /* PostListData_recommend_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListData_recommend_1.json; sourceTree = "<group>"; };
+		6E81F68328882B5C009B3326 /* PostListData_hot_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PostListData_hot_1.json; sourceTree = "<group>"; };
+		6E81F6F32888335A009B3326 /* PostCellToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellToolbarButton.swift; sourceTree = "<group>"; };
+		6E81F6F728883973009B3326 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		6E81F6F928884B14009B3326 /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		6E913CD32887035A002B68FD /* PostVIPBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVIPBadge.swift; sourceTree = "<group>"; };
+		6EAA731128896E0B00885E79 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		6EAA73132889769A00885E79 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
+		6EAA7315288983EE00885E79 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6EAA731728898CCA00885E79 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		6EC84ACE2886FB63001E349B /* MintWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC84AD12886FB63001E349B /* MintWeiboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintWeiboApp.swift; sourceTree = "<group>"; };
 		6EC84AD32886FB63001E349B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EC84AD52886FB66001E349B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EC84AD82886FB66001E349B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EC84AE12886FDD5001E349B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		6ED65F0D289820EB00251321 /* OriginalButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalButtonStyle.swift; sourceTree = "<group>"; };
+		6ED65F102898252A00251321 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6ED65F112898252A00251321 /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		6EF20787288817B2000CD69C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B3AE12489D3D6E691A5492EF /* Pods_MintWeibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MintWeibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6230FF4F1F77ADC45641BE9 /* Pods-MintWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintWeibo.release.xcconfig"; path = "Target Support Files/Pods-MintWeibo/Pods-MintWeibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +68,100 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05418A61493913D263C51C4E /* Pods_MintWeibo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B20A9B29462548FF39BF238 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68D0EEC59878199DB0A9CEF4 /* Pods-MintWeibo.debug.xcconfig */,
+				E6230FF4F1F77ADC45641BE9 /* Pods-MintWeibo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E3A135B288D989900B0002A /* PostView */ = {
+			isa = PBXGroup;
+			children = (
+				6EC84AE12886FDD5001E349B /* PostCell.swift */,
+				6E81F6F728883973009B3326 /* PostListView.swift */,
+				6EAA731128896E0B00885E79 /* PostDetailView.swift */,
+				6E81F6F928884B14009B3326 /* PostImageCell.swift */,
+				6E81F6F32888335A009B3326 /* PostCellToolbarButton.swift */,
+				6E913CD32887035A002B68FD /* PostVIPBadge.swift */,
+				6ED65F0D289820EB00251321 /* OriginalButtonStyle.swift */,
+			);
+			path = PostView;
+			sourceTree = "<group>";
+		};
+		6E3A135C288D98AF00B0002A /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA73132889769A00885E79 /* HomeNavigationBar.swift */,
+				6EAA7315288983EE00885E79 /* HomeView.swift */,
+				6E3A1353288ADDAF00B0002A /* HScrollViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		6E3A135D288D98BA00B0002A /* CommentView */ = {
+			isa = PBXGroup;
+			children = (
+				6E3A1357288D3F9D00B0002A /* CommentTextView.swift */,
+				6E3A1355288D3CA900B0002A /* CommentInputView.swift */,
+				6E3A1359288D5D2000B0002A /* KeyboardResponder.swift */,
+			);
+			path = CommentView;
+			sourceTree = "<group>";
+		};
+		6E81F64728882B5C009B3326 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E81F66028882B5C009B3326 /* PostListData_recommend_1.json */,
+				6E81F68328882B5C009B3326 /* PostListData_hot_1.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E81F6EE28882F69009B3326 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EF20787288817B2000CD69C /* Post.swift */,
+				6ED65F0F2898250300251321 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E81F6EF28882FAA009B3326 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EC84AD32886FB63001E349B /* ContentView.swift */,
+				6E3A135B288D989900B0002A /* PostView */,
+				6E3A135C288D98AF00B0002A /* HomeView */,
+				6E3A135D288D98BA00B0002A /* CommentView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E81F6F028882FB8009B3326 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6EAA731728898CCA00885E79 /* UserData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		6EC84AC52886FB63001E349B = {
 			isa = PBXGroup;
 			children = (
 				6EC84AD02886FB63001E349B /* MintWeibo */,
 				6EC84ACF2886FB63001E349B /* Products */,
+				1B20A9B29462548FF39BF238 /* Pods */,
+				F39E587014F11770DB149395 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +177,11 @@
 			isa = PBXGroup;
 			children = (
 				6EC84AD12886FB63001E349B /* MintWeiboApp.swift */,
-				6EC84AD32886FB63001E349B /* ContentView.swift */,
+				6E81F6EF28882FAA009B3326 /* View */,
+				6E81F6EE28882F69009B3326 /* Model */,
+				6E81F6F028882FB8009B3326 /* ViewModel */,
 				6EC84AD52886FB66001E349B /* Assets.xcassets */,
+				6E81F64728882B5C009B3326 /* Resources */,
 				6EC84AD72886FB66001E349B /* Preview Content */,
 			);
 			path = MintWeibo;
@@ -67,6 +195,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6ED65F0F2898250300251321 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6ED65F112898252A00251321 /* NetworkAPI.swift */,
+				6ED65F102898252A00251321 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F39E587014F11770DB149395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3AE12489D3D6E691A5492EF /* Pods_MintWeibo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EC84ADC2886FB66001E349B /* Build configuration list for PBXNativeTarget "MintWeibo" */;
 			buildPhases = (
+				8A0255C776E2CDCC5A7B2400 /* [CP] Check Pods Manifest.lock */,
 				6EC84ACA2886FB63001E349B /* Sources */,
 				6EC84ACB2886FB63001E349B /* Frameworks */,
 				6EC84ACC2886FB63001E349B /* Resources */,
+				150F6025E5AC74070ADC3B4C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +273,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC84AD92886FB66001E349B /* Preview Assets.xcassets in Resources */,
+				6E81F6B328882B5C009B3326 /* PostListData_recommend_1.json in Resources */,
+				6E81F6D628882B5C009B3326 /* PostListData_hot_1.json in Resources */,
 				6EC84AD62886FB66001E349B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		150F6025E5AC74070ADC3B4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintWeibo/Pods-MintWeibo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MintWeibo/Pods-MintWeibo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MintWeibo/Pods-MintWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0255C776E2CDCC5A7B2400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MintWeibo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EC84ACA2886FB63001E349B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED65F122898252A00251321 /* NetworkManager.swift in Sources */,
+				6EAA731828898CCA00885E79 /* UserData.swift in Sources */,
 				6EC84AD42886FB63001E349B /* ContentView.swift in Sources */,
+				6E3A1354288ADDAF00B0002A /* HScrollViewController.swift in Sources */,
+				6EAA731228896E0B00885E79 /* PostDetailView.swift in Sources */,
+				6E3A1358288D3F9D00B0002A /* CommentTextView.swift in Sources */,
+				6ED65F0E289820EB00251321 /* OriginalButtonStyle.swift in Sources */,
+				6E3A135A288D5D2000B0002A /* KeyboardResponder.swift in Sources */,
+				6E81F6F828883973009B3326 /* PostListView.swift in Sources */,
+				6E913CD42887035A002B68FD /* PostVIPBadge.swift in Sources */,
+				6E81F6F42888335A009B3326 /* PostCellToolbarButton.swift in Sources */,
 				6EC84AD22886FB63001E349B /* MintWeiboApp.swift in Sources */,
+				6EAA73142889769A00885E79 /* HomeNavigationBar.swift in Sources */,
+				6E3A1356288D3CA900B0002A /* CommentInputView.swift in Sources */,
+				6EC84AE22886FDD5001E349B /* PostCell.swift in Sources */,
+				6EAA7316288983EE00885E79 /* HomeView.swift in Sources */,
+				6E81F6FA28884B14009B3326 /* PostImageCell.swift in Sources */,
+				6EF20788288817B3000CD69C /* Post.swift in Sources */,
+				6ED65F132898252A00251321 /* NetworkAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +469,7 @@
 		};
 		6EC84ADD2886FB66001E349B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D0EEC59878199DB0A9CEF4 /* Pods-MintWeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -273,7 +482,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +500,7 @@
 		};
 		6EC84ADE2886FB66001E349B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6230FF4F1F77ADC45641BE9 /* Pods-MintWeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,7 +513,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
